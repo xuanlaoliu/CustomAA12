@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <AssemblyName>CustomAA12</AssemblyName>
+    <RootNamespace>CustomAA12</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\_extracted_labapi\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- LabAPI 框架 -->
+    <Reference Include="LabApi">
+      <HintPath>..\_extracted_labapi\LabApi.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 游戏核心程序集 -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\_extracted_labapi\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\_extracted_labapi\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Unity 引擎 -->
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\_extracted_labapi\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\_extracted_labapi\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 网络层 -->
+    <Reference Include="Mirror">
+      <HintPath>..\_extracted_labapi\Mirror.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 命令系统 -->
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\_extracted_labapi\CommandSystem.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 其他依赖 -->
+    <Reference Include="NorthwoodLib">
+      <HintPath>..\_extracted_labapi\NorthwoodLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="YamlDotNet">
+      <HintPath>..\_extracted_labapi\YamlDotNet.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    </ItemGroup>
+
+</Project>
