@@ -83,7 +83,7 @@ Weapons spawn as world pickups at the spawn location — both teams can grab the
 
 ```bash
 # 克隆 / Clone
-git clone <your-repo>
+git clone https://github.com/xuanlaoliu/CustomAA12.git
 cd CustomAA12
 
 # 构建 / Build
@@ -114,7 +114,7 @@ MIT License — Feel free to use, modify, and distribute.
 
 ## 👤 作者 / Author
 
-**Developer** — [GitHub](https://github.com/your-username)
+**Developer** — [GitHub](https://github.com/xuanlaoliu)
 
 ---
 
